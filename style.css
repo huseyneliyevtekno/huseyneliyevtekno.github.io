@@ -11,7 +11,7 @@
 
 .container{
     background: url(img/image.png); /* Background Image */
-    height: 150vw;
+    height: 200vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixed Background */
