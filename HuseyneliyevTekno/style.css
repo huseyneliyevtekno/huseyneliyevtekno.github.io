@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    left: -160px;
+    top: -170px;
+    position: fixed;
+}
+
+.container{
+    background: url(img/image.png); /* Background Image */
+    height: 300vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed Background */
+}
+
+
+
+/* Style buttons */
+.btn {
+    left: 1350px;
+    top: 21px;
+    background-color: #a34cf5; /* Purple background */
+    border: none; /* Remove borders */
+    border-radius: 50%;
+    position: fixed;
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 21px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    transition-duration: 0.4s;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #8005f2;
+  }
+
+.axtaris{
+  position: fixed;
+  left: 1267px;
+  top: 21px;
+  background: #a34cf5;
+  transform: translateX(-100%);
+  padding: 12px 16px;
+  width: auto;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+.axtaris a{
+  border: none;
+  border-radius: 50%;
+  color: white;
+  align-items: center;
+  justify-content: end;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+
+.axtaris input{
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  padding: 0;
+  width: 0;
+  transition: 0.4s ease-in;
+}
+
+.axtaris:hover > input{
+  width: 200px;
+  padding: 0 12px;
+  float: right;
+}
+
+.axtaris:hover{
+  background-color: #8005f2;
+}
+
+.iconbutton{
+  left: 1280px;
+  top: 20px;
+  position: fixed;
+  padding: 12px 16px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background: #a34cf5;
+  transition-duration: 0.4s;
+}
+
+.iconbutton:hover{
+  background-color: #8005f2;
+}
+
+.box1{
+  left: 160px;
+  top: 180px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.box2{
+  left: 160px;
+  top: 545px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.box3{
+  left: 160px;
+  top: 910px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.box4{
+  left: 160px;
+  top: 1275px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.box5{
+  left: 160px;
+  top: 1640px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.box6{
+  left: 160px;
+  top: 2005px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.box7{
+  left: 160px;
+  top: 2370px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.box8{
+  left: 160px;
+  top: 2735px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.img{
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.img1{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.img2{
+  position: absolute;
+  left: -120px;
+  top: 7px;
+}
+
+.img3{
+  position: absolute;
+  left: 35px;
+  top: 40px;
+}
+
+.img4{
+  position: absolute;
+  left: -285px;
+  top: -80px;
+}
+
+.img5{
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}
+
+.img6{
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}
+
+.office{
+  position: absolute;
+  left: 320px;
+  top: 40px;
+  color: white;
+}
+
+.office1{
+  position: absolute;
+  left: 320px;
+  top: 85px;
+  color: red;
+}
+
+.photoshop{
+  position: absolute;
+  left: 320px;
+  top: 40px;
+  color: white;
+}
+
+.photoshop1{
+  position: absolute;
+  left: 320px;
+  top: 85px;
+  color: red;
+}
+
+.premiere{
+  position: absolute;
+  left: 320px;
+  top: 45px;
+  color: white;
+}
+
+.premiere1{
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  color: red
+}
+
+.after{
+  position: absolute;
+  left: 320px;
+  top: 45px;
+  color: white;
+}
+
+.after1{
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  color: red
+}
+
+.blender{
+  position: absolute;
+  left: 320px;
+  top: 45px;
+  color: white;
+}
+
+.blender1{
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  color: red
+}
+
+.lightroom{
+  position: absolute;
+  left: 320px;
+  top: 45px;
+  color: white;
+}
+
+.lightroom1{
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  color: red
+}
+
+.engine{
+  position: absolute;
+  left: 331px;
+  top: 45px;
+  color: white;
+}
+
+.engine1{
+  position: absolute;
+  left: 335px;
+  top: 90px;
+  color: red
+}
+
+.davinci{
+  position: absolute;
+  left: 338px;
+  top: 45px;
+  color: white;
+}
+
+.davinci1{
+  position: absolute;
+  left: 339px;
+  top: 90px;
+  color: red
+}
+
+.line{
+  position: absolute;
+  top: 130px;
+  left: 320px;
+}
+
+.line1{
+  position: absolute;
+  top: 130px;
+  left: 320px;
+}
+
+.line2{
+  position: absolute;
+  top: 130px;
+  left: 335px;
+}
+
+.ehtiyyac{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac1{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac2{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac3{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+.ehtiyyac4{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac5{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac6{
+  position: absolute;
+  left: 335px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac7{
+  position: absolute;
+  left: 340px;
+  top: 150px;
+  color: white;
+}
+
+/* Style buttons */
+.btn1{
+  position: absolute;
+  left: 900px;
+  top: 250px;
+  background-color: #5f00b3;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+  background-color: #3a006e;
+}
+
+.btn2{
+  position: absolute;
+  left: 900px;
+  top: 250px;
+  background-color: #5f00b3;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+.btn2:hover {
+  background-color: #3a006e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
