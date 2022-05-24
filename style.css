@@ -189,6 +189,17 @@
   border: none;
 }
 
+.box9{
+  left: 160px;
+  top: 3100px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
 .img{
   position: absolute;
   left: 40px;
@@ -229,6 +240,12 @@
   position: absolute;
   left: 40px;
   top: 50px;
+}
+
+.img7{
+  position: absolute;
+  left: -115px;
+  top: 0px;
 }
 
 .office{
@@ -343,6 +360,20 @@
   color: red
 }
 
+.illustrator{
+  position: absolute;
+  left: 340px;
+  top: 45px;
+  color: white;
+}
+
+.illustrator1{
+  position: absolute;
+  left: 341px;
+  top: 90px;
+  color: red
+}
+
 .line{
   position: absolute;
   top: 130px;
@@ -412,6 +443,13 @@
 .ehtiyyac7{
   position: absolute;
   left: 340px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac8{
+  position: absolute;
+  left: 342px;
   top: 150px;
   color: white;
 }
