@@ -34,54 +34,8 @@
     transition-duration: 0.4s;
   }
   
-  /* Darker background on mouse-over */
-  .btn:hover {
-    background-color: #8005f2;
-  }
-
-.axtaris{
-  position: fixed;
-  left: 1267px;
-  top: 21px;
-  background: #a34cf5;
-  transform: translateX(-100%);
-  padding: 12px 16px;
-  width: auto;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-
-}
-
-.axtaris a{
-  border: none;
-  border-radius: 50%;
-  color: white;
-  align-items: center;
-  justify-content: end;
-  text-decoration: none;
-  font-size: 150%;
-}
-
-
-.axtaris input{
-  border: none;
-  background: none;
-  outline: none;
-  color: white;
-  padding: 0;
-  width: 0;
-  transition: 0.4s ease-in;
-}
-
-.axtaris:hover > input{
-  width: 200px;
-  padding: 0 12px;
-  float: right;
-}
-
-.axtaris:hover{
+/* Darker background on mouse-over */
+.btn:hover {
   background-color: #8005f2;
 }
 
@@ -492,8 +446,26 @@
   background-color: #3a006e;
 }
 
+.btn3{
+  position: fixed;
+  left: 1207px;
+  top: 19px;
+  height: 55px;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #a34cf5;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+}
 
-
+.btn3:hover {
+  background-color: #8005f2;
+}
 
 
 
