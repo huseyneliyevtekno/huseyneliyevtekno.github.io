@@ -1,4 +1,7 @@
 
+
+/* Bildirimler funksiya Javascript */
+
 iconbutton.onclick = () => {
     iconbutton.classList.remove('active');
 }

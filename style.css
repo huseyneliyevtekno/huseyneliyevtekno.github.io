@@ -1,3 +1,5 @@
+/*CSS Kodlar*/
+
 *{
     margin: 0;
     padding: 0;
@@ -54,6 +56,8 @@
 .iconbutton:hover{
   background-color: #8005f2;
 }
+
+/* Box */
 
 .box1{
   left: 160px;
@@ -165,6 +169,8 @@
   border: none;
 }
 
+/* images */
+
 .img{
   position: absolute;
   left: 40px;
@@ -218,6 +224,8 @@
   left: -185px;
   top: -35px;
 }
+
+/* proqramlar */
 
 .office{
   position: absolute;
@@ -359,6 +367,7 @@
   color: red
 }
 
+/* lines */
 
 .line{
   position: absolute;
@@ -389,6 +398,8 @@
   top: 130px;
   left: 349px;
 }
+
+/* Sistem Ehtiyyacları */
 
 .ehtiyyac{
   position: absolute;
@@ -474,7 +485,7 @@
   transition-duration: 0.4s;
 }
 
-/* Darker background on mouse-over */
+/* Darker background on mouse-hover */
 .btn1:hover {
   background-color: #3a006e;
 }
@@ -517,6 +528,8 @@
 .btn3:hover {
   background-color: #8005f2;
 }
+
+/* Bildirimler */
 
 .notification-box{
   position: fixed;
