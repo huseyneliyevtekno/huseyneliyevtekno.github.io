@@ -169,6 +169,17 @@
   border: none;
 }
 
+.box11{
+  left: 160px;
+  top: 3830px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
 /* images */
 
 .img{
@@ -224,6 +235,13 @@
   left: -185px;
   top: -35px;
 }
+
+.img9{
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
 
 /* proqramlar */
 
@@ -367,6 +385,20 @@
   color: red
 }
 
+.sketchup{
+  position: absolute;
+  left: 362px;
+  top: 40px;
+  color: white;
+}
+
+.sketchup1{
+  position: absolute;
+  left: 362px;
+  top: 90px;
+  color: red
+}
+
 /* lines */
 
 .line{
@@ -397,6 +429,12 @@
   position: absolute;
   top: 130px;
   left: 349px;
+}
+
+.line5{
+  position: absolute;
+  top: 130px;
+  left: 362px;
 }
 
 /* Sistem Ehtiyyacları */
@@ -466,6 +504,13 @@
 .ehtiyyac9{
   position: absolute;
   left: 350px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac10{
+  position: absolute;
+  left: 362px;
   top: 150px;
   color: white;
 }
