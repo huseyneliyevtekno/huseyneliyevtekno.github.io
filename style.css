@@ -180,6 +180,17 @@
   border: none;
 }
 
+.box12{
+  left: 160px;
+  top: 4195px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
 /* images */
 
 .img{
@@ -237,6 +248,12 @@
 }
 
 .img9{
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+.img10{
   position: absolute;
   left: 40px;
   top: 30px;
@@ -399,6 +416,20 @@
   color: red
 }
 
+.character{
+  position: absolute;
+  left: 364px;
+  top: 40px;
+  color: white;
+}
+
+.character1{
+  position: absolute;
+  left: 364px;
+  top: 90px;
+  color: red
+}
+
 /* lines */
 
 .line{
@@ -511,6 +542,13 @@
 .ehtiyyac10{
   position: absolute;
   left: 362px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac11{
+  position: absolute;
+  left: 364px;
   top: 150px;
   color: white;
 }
