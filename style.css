@@ -13,7 +13,7 @@
 
 .container{
     background: url(img/image.png); /* Background Image */
-    height: 350vw;
+    height: 380vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixed Background */
@@ -202,6 +202,28 @@
   border: none;
 }
 
+.box14{
+  left: 160px;
+  top: 4925px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+.box15{
+  left: 160px;
+  top: 5290px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
 /* images */
 
 .img{
@@ -274,6 +296,18 @@
   position: absolute;
   left: -150px;
   top: -20px;
+}
+
+.img12{
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+
+.img13{
+  position: absolute;
+  left: -120px;
+  top: -50px;
 }
 
 
@@ -461,6 +495,34 @@
   color: red
 }
 
+.python{
+  position: absolute;
+  left: 370px;
+  top: 40px;
+  color: white;
+}
+
+.python1{
+  position: absolute;
+  left: 370px;
+  top: 90px;
+  color: red
+}
+
+.pycharm{
+  position: absolute;
+  left: 370px;
+  top: 40px;
+  color: white;
+}
+
+.pycharm1{
+  position: absolute;
+  left: 370px;
+  top: 90px;
+  color: red
+}
+
 /* lines */
 
 .line{
@@ -503,6 +565,12 @@
   position: absolute;
   top: 130px;
   left: 364px;
+}
+
+.line7{
+  position: absolute;
+  top: 130px;
+  left: 366px;
 }
 
 /* Sistem Ehtiyyacları */
@@ -593,6 +661,20 @@
 .ehtiyyac12{
   position: absolute;
   left: 366px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac13{
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac14{
+  position: absolute;
+  left: 370px;
   top: 150px;
   color: white;
 }
