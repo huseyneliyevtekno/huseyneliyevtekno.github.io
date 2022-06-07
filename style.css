@@ -689,7 +689,6 @@
   border: none;
   color: white;
   padding: 12px 30px;
-  cursor: pointer;
   font-size: 20px;
   transition-duration: 0.4s;
 }
@@ -746,8 +745,7 @@
   left: 1150px;
   top: 80px;
   width: 320px;
-  height: 0px;
-  opacity: 0;
+  height: 320px;
   border-radius: 20px;
 }
 
@@ -761,7 +759,24 @@
   border-radius: 20px;
 }
 
+.message-box1{
+  position: fixed;
+  background-color: #0056e0;
+  left: 1170px;
+  top: 200px;
+  width: 280px;
+  height: 80px;
+  border-radius: 20px;
+}
+
 .message1{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+}
+
+.message2{
   position: absolute;
   left: 20px;
   top: 20px;
