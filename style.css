@@ -38,7 +38,7 @@
   
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: #8005f2;
+  background-color: #6c00c4;
 }
 
 .iconbutton{
@@ -51,10 +51,11 @@
   color: white;
   background: #a34cf5;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .iconbutton:hover{
-  background-color: #8005f2;
+  background-color: #6c00c4;
 }
 
 /* Box */
@@ -730,10 +731,11 @@
   text-decoration: none;
   border-radius: 50%;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .btn3:hover {
-  background-color: #8005f2;
+  background-color: #6c00c4;
 }
 
 /* Bildirimler */
