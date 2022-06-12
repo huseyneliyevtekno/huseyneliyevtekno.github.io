@@ -772,6 +772,16 @@
   border-radius: 20px;
 }
 
+.message-box2{
+  position: fixed;
+  background-color: #0056e0;
+  left: 1170px;
+  top: 300px;
+  width: 280px;
+  height: 80px;
+  border-radius: 20px;
+}
+
 .message1{
   position: absolute;
   left: 20px;
@@ -783,6 +793,13 @@
   position: absolute;
   left: 20px;
   top: 20px;
+  color: white;
+}
+
+.message3{
+  position: absolute;
+  left: 20px;
+  top: 10px;
   color: white;
 }
 
