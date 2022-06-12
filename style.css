@@ -12,7 +12,7 @@
 }
 
 .container{
-    background: url(img/image.png); /* Background Image */
+    background: url(img/bg.png); /* Background Image */
     height: 380vw;
     background-size: cover;
     background-repeat: no-repeat;
