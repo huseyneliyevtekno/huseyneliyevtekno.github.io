@@ -22,6 +22,27 @@ function notification(){
 
 
 
+/* Menu funksiya Javascript */
+
+
+var box1 = document.querySelector('.menu');
+var down = false;
+
+
+
+function menu(){
+    if (down) {
+        box1.style.height = '0px';
+        box1.style.opacity = 0;
+        down = false;
+    }else{
+        box1.style.height = '320px';
+        box1.style.opacity = 1;
+        down = true;
+    }
+}
+
+
 
 
 
