@@ -36,7 +36,7 @@ function menu(){
         box1.style.opacity = 0;
         down = false;
     }else{
-        box1.style.height = '320px';
+        box1.style.height = '380px';
         box1.style.opacity = 1;
         down = true;
     }
