@@ -1,23 +1,3 @@
-/*CSS Kodlar*/
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.logo{
-    left: -160px;
-    top: -170px;
-    position: fixed;
-}
-
-.container{
-    background: url(img/bg.png); /* Background Image */
-    height: 380vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Fixed Background */
-}
-
 
 /* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 595px) {}
@@ -33,6 +13,31 @@
 
 /* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {}
+
+
+
+/*CSS Kodlar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    left: -160px;
+    top: -170px;
+    position: fixed;
+}
+
+.container{
+    background: url(img/bg.png); /* Background Image */
+    height: 400vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed Background */
+}
+
+
+
 
 
 /* Style buttons */
@@ -239,6 +244,18 @@
   border: none;
 }
 
+.box16{
+  left: 160px;
+  top: 5665px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
+
 /* images */
 
 .img{
@@ -323,6 +340,12 @@
   position: absolute;
   left: -120px;
   top: -50px;
+}
+
+.img14{
+  position: absolute;
+  left: 30px;
+  top: 20px;
 }
 
 
@@ -538,6 +561,20 @@
   color: red
 }
 
+.nvidia{
+  position: absolute;
+  left: 378px;
+  top: 40px;
+  color: white;
+}
+
+.nvidia1{
+  position: absolute;
+  left: 378px;
+  top: 90px;
+  color: red
+}
+
 /* lines */
 
 .line{
@@ -586,6 +623,12 @@
   position: absolute;
   top: 130px;
   left: 366px;
+}
+
+.line8{
+  position: absolute;
+  top: 130px;
+  left: 376px;
 }
 
 /* Sistem Ehtiyyacları */
