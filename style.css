@@ -30,7 +30,7 @@
 
 .container{
     background: url(img/bg.png); /* Background Image */
-    height: 400vw;
+    height: 450vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixed Background */
@@ -255,6 +255,17 @@
   border: none;
 }
 
+.box17{
+  left: 160px;
+  top: 6030px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
 
 /* images */
 
@@ -343,6 +354,12 @@
 }
 
 .img14{
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+.img15{
   position: absolute;
   left: 30px;
   top: 20px;
@@ -575,6 +592,20 @@
   color: red
 }
 
+.xd{
+  position: absolute;
+  left: 382px;
+  top: 40px;
+  color: white;
+}
+
+.xd1{
+  position: absolute;
+  left: 382px;
+  top: 90px;
+  color: red
+}
+
 /* lines */
 
 .line{
@@ -629,6 +660,12 @@
   position: absolute;
   top: 130px;
   left: 376px;
+}
+
+.line9{
+  position: absolute;
+  top: 130px;
+  left: 378px;
 }
 
 /* Sistem Ehtiyyacları */
@@ -733,6 +770,13 @@
 .ehtiyyac14{
   position: absolute;
   left: 370px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac15{
+  position: absolute;
+  left: 382px;
   top: 150px;
   color: white;
 }
