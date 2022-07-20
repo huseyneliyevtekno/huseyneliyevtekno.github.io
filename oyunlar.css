@@ -1,0 +1,1033 @@
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+/*CSS Kodlar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    left: -160px;
+    top: -170px;
+    position: fixed;
+}
+
+.container{
+    background: url(img/oyunlar.jpg); /* Background Image */
+    height: 450vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed Background */
+}
+
+
+
+
+
+/* Style buttons */
+.btn {
+    left: 1350px;
+    top: 21px;
+    background-color: #a34cf5; /* Purple background */
+    border: none; /* Remove borders */
+    border-radius: 50%;
+    position: fixed;
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 21px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    transition-duration: 0.4s;
+  }
+  
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #6c00c4;
+}
+
+.iconbutton{
+  left: 1280px;
+  top: 20px;
+  position: fixed;
+  padding: 12px 16px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background: #a34cf5;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.iconbutton:hover{
+  background-color: #6c00c4;
+}
+
+/* Box */
+
+.box1{
+  left: 160px;
+  top: 180px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box2{
+  left: 160px;
+  top: 545px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box3{
+  left: 160px;
+  top: 910px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box4{
+  left: 160px;
+  top: 1275px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box5{
+  left: 160px;
+  top: 1640px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box6{
+  left: 160px;
+  top: 2005px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box7{
+  left: 160px;
+  top: 2370px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box8{
+  left: 160px;
+  top: 2735px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box9{
+  left: 160px;
+  top: 3100px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box10{
+  left: 160px;
+  top: 3465px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box11{
+  left: 160px;
+  top: 3830px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box12{
+  left: 160px;
+  top: 4195px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box13{
+  left: 160px;
+  top: 4560px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box14{
+  left: 160px;
+  top: 4925px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box15{
+  left: 160px;
+  top: 5290px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box16{
+  left: 160px;
+  top: 5665px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+.box17{
+  left: 160px;
+  top: 6030px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #9900bf;
+  border-radius: 15px;
+  border: none;
+}
+
+
+/* images */
+
+.img{
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+.img1{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.img2{
+  position: absolute;
+  left: -120px;
+  top: 7px;
+}
+
+.img3{
+  position: absolute;
+  left: 35px;
+  top: 40px;
+}
+
+.img4{
+  position: absolute;
+  left: -285px;
+  top: -80px;
+}
+
+.img5{
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}
+
+.img6{
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}
+
+.img7{
+  position: absolute;
+  left: -115px;
+  top: 0px;
+}
+
+.img8{
+  position: absolute;
+  left: -185px;
+  top: -35px;
+}
+
+.img9{
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+.img10{
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+.img11{
+  position: absolute;
+  left: -150px;
+  top: -20px;
+}
+
+.img12{
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+
+.img13{
+  position: absolute;
+  left: -120px;
+  top: -50px;
+}
+
+.img14{
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+.img15{
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+
+/* proqramlar */
+
+.gameloop{
+  position: absolute;
+  left: 320px;
+  top: 40px;
+  color: white;
+}
+
+.gameloop1{
+  position: absolute;
+  left: 320px;
+  top: 85px;
+  color: red;
+}
+
+.photoshop{
+  position: absolute;
+  left: 320px;
+  top: 40px;
+  color: white;
+}
+
+.photoshop1{
+  position: absolute;
+  left: 320px;
+  top: 85px;
+  color: red;
+}
+
+.premiere{
+  position: absolute;
+  left: 320px;
+  top: 45px;
+  color: white;
+}
+
+.premiere1{
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  color: red
+}
+
+.after{
+  position: absolute;
+  left: 320px;
+  top: 45px;
+  color: white;
+}
+
+.after1{
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  color: red
+}
+
+.blender{
+  position: absolute;
+  left: 320px;
+  top: 45px;
+  color: white;
+}
+
+.blender1{
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  color: red
+}
+
+.lightroom{
+  position: absolute;
+  left: 320px;
+  top: 45px;
+  color: white;
+}
+
+.lightroom1{
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  color: red
+}
+
+.engine{
+  position: absolute;
+  left: 331px;
+  top: 45px;
+  color: white;
+}
+
+.engine1{
+  position: absolute;
+  left: 335px;
+  top: 90px;
+  color: red
+}
+
+.davinci{
+  position: absolute;
+  left: 338px;
+  top: 45px;
+  color: white;
+}
+
+.davinci1{
+  position: absolute;
+  left: 339px;
+  top: 90px;
+  color: red
+}
+
+.illustrator{
+  position: absolute;
+  left: 340px;
+  top: 45px;
+  color: white;
+}
+
+.illustrator1{
+  position: absolute;
+  left: 341px;
+  top: 90px;
+  color: red
+}
+
+.rush{
+  position: absolute;
+  left: 350px;
+  top: 45px;
+  color: white;
+}
+
+.rush1{
+  position: absolute;
+  left: 350px;
+  top: 90px;
+  color: red
+}
+
+.sketchup{
+  position: absolute;
+  left: 362px;
+  top: 40px;
+  color: white;
+}
+
+.sketchup1{
+  position: absolute;
+  left: 362px;
+  top: 90px;
+  color: red
+}
+
+.character{
+  position: absolute;
+  left: 364px;
+  top: 40px;
+  color: white;
+}
+
+.character1{
+  position: absolute;
+  left: 364px;
+  top: 90px;
+  color: red
+}
+
+.indesign{
+  position: absolute;
+  left: 366px;
+  top: 40px;
+  color: white;
+}
+
+.indesign1{
+  position: absolute;
+  left: 366px;
+  top: 90px;
+  color: red
+}
+
+.python{
+  position: absolute;
+  left: 370px;
+  top: 40px;
+  color: white;
+}
+
+.python1{
+  position: absolute;
+  left: 370px;
+  top: 90px;
+  color: red
+}
+
+.pycharm{
+  position: absolute;
+  left: 370px;
+  top: 40px;
+  color: white;
+}
+
+.pycharm1{
+  position: absolute;
+  left: 370px;
+  top: 90px;
+  color: red
+}
+
+.nvidia{
+  position: absolute;
+  left: 378px;
+  top: 40px;
+  color: white;
+}
+
+.nvidia1{
+  position: absolute;
+  left: 378px;
+  top: 90px;
+  color: red
+}
+
+.xd{
+  position: absolute;
+  left: 382px;
+  top: 40px;
+  color: white;
+}
+
+.xd1{
+  position: absolute;
+  left: 382px;
+  top: 90px;
+  color: red
+}
+
+/* lines */
+
+.line{
+  position: absolute;
+  top: 130px;
+  left: 320px;
+}
+
+.line1{
+  position: absolute;
+  top: 130px;
+  left: 320px;
+}
+
+.line2{
+  position: absolute;
+  top: 130px;
+  left: 335px;
+}
+
+.line3{
+  position: absolute;
+  top: 130px;
+  left: 340px;
+}
+
+.line4{
+  position: absolute;
+  top: 130px;
+  left: 349px;
+}
+
+.line5{
+  position: absolute;
+  top: 130px;
+  left: 362px;
+}
+
+.line6{
+  position: absolute;
+  top: 130px;
+  left: 364px;
+}
+
+.line7{
+  position: absolute;
+  top: 130px;
+  left: 366px;
+}
+
+.line8{
+  position: absolute;
+  top: 130px;
+  left: 376px;
+}
+
+.line9{
+  position: absolute;
+  top: 130px;
+  left: 378px;
+}
+
+/* Sistem Ehtiyyacları */
+
+.ehtiyyac{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac1{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac2{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac3{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+.ehtiyyac4{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac5{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac6{
+  position: absolute;
+  left: 335px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac7{
+  position: absolute;
+  left: 340px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac8{
+  position: absolute;
+  left: 342px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac9{
+  position: absolute;
+  left: 350px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac10{
+  position: absolute;
+  left: 362px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac11{
+  position: absolute;
+  left: 364px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac12{
+  position: absolute;
+  left: 366px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac13{
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac14{
+  position: absolute;
+  left: 370px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac15{
+  position: absolute;
+  left: 382px;
+  top: 150px;
+  color: white;
+}
+
+/* Style buttons */
+.btn1{
+  position: absolute;
+  left: 900px;
+  top: 250px;
+  background-color: #5f00b3;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+/* Darker background on mouse-hover */
+.btn1:hover {
+  background-color: #3a006e;
+}
+
+.btn2{
+  position: absolute;
+  left: 900px;
+  top: 250px;
+  background-color: #5f00b3;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+.btn2:hover {
+  background-color: #3a006e;
+}
+
+.btn3{
+  position: fixed;
+  left: 1207px;
+  top: 19px;
+  height: 55px;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #a34cf5;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  background-color: #6c00c4;
+}
+
+/* Bildirimler */
+
+.notification-box{
+  position: fixed;
+  background-color: #a34cf5;
+  left: 1150px;
+  top: 80px;
+  width: 320px;
+  height: 0px;
+  opacity: 0;
+  border-radius: 20px;
+  transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
+}
+
+.message-box{
+  position: fixed;
+  background-color: #0056e0;
+  left: 1170px;
+  top: 100px;
+  width: 280px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.message-box1{
+  position: fixed;
+  background-color: #0056e0;
+  left: 1170px;
+  top: 200px;
+  width: 280px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.message-box2{
+  position: fixed;
+  background-color: #0056e0;
+  left: 1170px;
+  top: 300px;
+  width: 280px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.message1{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+}
+
+.message2{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+}
+
+.message3{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  color: white;
+}
+
+
+.menu{
+  position: fixed;
+  background-color: #a34cf5;
+  left: 1185px;
+  top: 80px;
+  width: 320px;
+  height: 0px;
+  opacity: 0;
+  border-radius: 20px;
+  transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
+}
+
+.esas{
+  position: absolute;
+  left: 60px;
+  top: 40px;
+  height: 60px;
+  width: 200px;
+  font-size: 25px;
+  background-color: #0056e0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.esas:hover{
+  background-color: #021ed4;
+}
+
+.proqramlar{
+  position: absolute;
+  left: 60px;
+  top: 120px;
+  height: 60px;
+  width: 200px;
+  font-size: 25px;
+  background-color: #0056e0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.proqramlar:hover{
+  background-color: #021ed4;
+}
+
+.oyunlar{
+  position: absolute;
+  left: 60px;
+  top: 200px;
+  height: 60px;
+  width: 200px;
+  font-size: 25px;
+  background-color: #0056e0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.oyunlar:hover{
+  background-color: #021ed4;
+}
+
+.elaqe{
+  position: absolute;
+  left: 60px;
+  top: 280px;
+  height: 60px;
+  width: 200px;
+  font-size: 25px;
+  background-color: #0056e0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.elaqe:hover{
+  background-color: #021ed4;
+}
+
+/* Forza Horizon 4 */
+
+.forza{
+  position: absolute;
+  left: 330px;
+  top: 40px;
+  color: white;
+}
+
+.forza1{
+  position: absolute;
+  left: 330px;
+  top: 85px;
+  color: red;
+}
+
+
+.img1{
+  left: 16px;
+}
+
+
+
+/* Oyunlar Sistem Ehtiyyacları */
+
+
+.oyun1{
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  color: white;
+}
+
+.oyun2{
+  position: absolute;
+  left: 330px;
+  top: 150px;
+  color: white;
+}
+
+
+
