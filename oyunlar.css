@@ -30,7 +30,7 @@
 
 .container{
     background: url(img/oyunlar.jpg); /* Background Image */
-    height: 450vw;
+    height: 80vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixed Background */
