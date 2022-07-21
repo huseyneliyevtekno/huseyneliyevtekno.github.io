@@ -1,21 +1,4 @@
 
-/* For extremely small screen devices (595px and below) */
-@media only screen and (max-width: 595px) {}
-
-/* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {}
-
-/* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {}
-
-/* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 1200px) {}
-
-
-
 /*CSS Kodlar*/
 *{
     margin: 0;
@@ -30,7 +13,7 @@
 
 .container{
     background: url(img/oyunlar.jpg); /* Background Image */
-    height: 80vw;
+    height: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixed Background */
@@ -1010,6 +993,28 @@
   left: 16px;
 }
 
+/* Fuel */
+
+.fuel{
+  position: absolute;
+  left: 340px;
+  top: 40px;
+  color: white;
+}
+
+.fuel1{
+  position: absolute;
+  left: 340px;
+  top: 85px;
+  color: red;
+}
+
+.fuelimage{
+  position: absolute;
+  left: -75px;
+  top: 20px;
+}
+
 
 
 /* Oyunlar Sistem Ehtiyyacları */
@@ -1024,10 +1029,33 @@
 
 .oyun2{
   position: absolute;
-  left: 330px;
+  left: 332px;
   top: 150px;
   color: white;
 }
+
+.oyun3{
+  position: absolute;
+  left: 340px;
+  top: 150px;
+  color: white;
+}
+
+
+/* Game Box Lines */
+
+.forzaLine{
+  position: absolute;
+  top: 130px;
+  left: 330px;
+}
+
+.fuelLine{
+  position: absolute;
+  top: 130px;
+  left: 340px;
+}
+
 
 
 
