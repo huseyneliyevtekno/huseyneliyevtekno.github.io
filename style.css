@@ -249,6 +249,17 @@
   border: none;
 }
 
+.box18{
+  left: 160px;
+  top: 6395px;
+  position: absolute;
+  width: 1240px;
+  height: 330px;
+  background-color: #8005f2;
+  border-radius: 15px;
+  border: none;
+}
+
 
 /* images */
 
@@ -346,6 +357,12 @@
   position: absolute;
   left: 30px;
   top: 20px;
+}
+
+.img16{
+  position: absolute;
+  left: -230px;
+  top: -30px;
 }
 
 
@@ -589,6 +606,20 @@
   color: red
 }
 
+.taskbarx{
+  position: absolute;
+  left: 382px;
+  top: 40px;
+  color: white;
+}
+
+.taskbarx1{
+  position: absolute;
+  left: 382px;
+  top: 90px;
+  color: red
+}
+
 /* lines */
 
 .line{
@@ -649,6 +680,12 @@
   position: absolute;
   top: 130px;
   left: 378px;
+}
+
+.line10{
+  position: absolute;
+  top: 130px;
+  left: 380px;
 }
 
 /* Sistem Ehtiyyacları */
@@ -760,6 +797,13 @@
 .ehtiyyac15{
   position: absolute;
   left: 382px;
+  top: 150px;
+  color: white;
+}
+
+.ehtiyyac16{
+  position: absolute;
+  left: 385px;
   top: 150px;
   color: white;
 }
